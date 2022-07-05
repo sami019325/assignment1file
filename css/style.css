@@ -65,12 +65,15 @@ section {
 }
 
 .btn {
+    position: relative;
     text-decoration: none;
     background: #FF5959;
+    height: 40px;
     border-radius: 5px;
     font-weight: 700;
     padding: 15px 40px;
-    margin-top: 20px;
+
+
 }
 
 .color-ash {
@@ -92,4 +95,8 @@ section {
 .display-flex {
     display: flex;
     flex-direction: row;
+}
+
+.margin-top {
+    margin-top: 40px;
 }
